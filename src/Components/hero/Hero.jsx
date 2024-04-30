@@ -77,7 +77,7 @@ const textVariants = {
           Passionate. Enthusiastic
         </motion.div>
         <div className="imageContainer">
-          <img src="/hero.png" alt="" />
+          <img src="/aarav.jpeg" alt="" />
         </div>
       </div>
     );
