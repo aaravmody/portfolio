@@ -4,7 +4,7 @@ import { motion } from 'framer-motion'
 import Sidebar from '../sidebar/Sidebar'
 
 
-const Navbar = () => {
+const navbar = () => {
   return (
     <div className='navbar'>
     <Sidebar />
@@ -19,4 +19,4 @@ const Navbar = () => {
   )
 }
 
-export default Navbar
+export default navbar
