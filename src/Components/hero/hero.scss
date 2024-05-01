@@ -24,7 +24,7 @@ $baseFontSize: 16px; // Define your base font size
       @include mobile {
         height: 50%;
         width: 100%;
-        gap: 1.25vw; // Convert 20px to vw
+        gap: 20px; // Convert 20px to vw
         align-items: center;
         text-align: center;
       }
@@ -39,7 +39,7 @@ $baseFontSize: 16px; // Define your base font size
         font-size: 5.5vw; // Convert 88px to vw
 
         @include mobile {
-          font-size: 2.25vw; // Convert 36px to vw
+          font-size: 36px; // Convert 36px to vw
         }
       }
 

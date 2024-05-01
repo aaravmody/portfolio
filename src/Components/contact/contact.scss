@@ -12,7 +12,7 @@ $baseFontSize: 16px; // Define your base font size
 
   @include mobile {
     width: 100%;
-    padding: 1.5625vw; // Convert 25px to vw
+    padding: 25px; // Convert 25px to vw
     flex-direction: column;
   }
 
@@ -26,8 +26,8 @@ $baseFontSize: 16px; // Define your base font size
     margin-top: 4.375vh; // Convert 70px to vh
 
     @include mobile {
-      gap: 1.25vw; // Convert 20px to vw
-      margin-top: 4.375vh; // Convert 70px to vh
+      gap: 20px; // Convert 20px to vw
+      margin-top: 70px; // Convert 70px to vh
     }
 
     h1 {
@@ -35,8 +35,8 @@ $baseFontSize: 16px; // Define your base font size
       line-height: 5.125vw; // Convert 88px to vw
 
       @include mobile {
-        font-size: 2.25vw; // Convert 36px to vw
-        line-height: 2.25vw; // Convert 36px to vw
+        font-size: 36px; // Convert 36px to vw
+        line-height: 36px; // Convert 36px to vw
       }
     }
 
@@ -52,7 +52,7 @@ $baseFontSize: 16px; // Define your base font size
     width: 100%;
 
     @include mobile {
-      padding: 3.125vw; // Convert 50px to vw
+      padding: 50px; // Convert 50px to vw
       width: 100%;
       justify-content: center;
       align-items: center;
@@ -73,6 +73,7 @@ $baseFontSize: 16px; // Define your base font size
       @include mobile {
         justify-content: center;
         align-items: center;
+        gap: 10px;
       }
 
       input,
@@ -88,8 +89,8 @@ $baseFontSize: 16px; // Define your base font size
         box-shadow: 0 0.625vw #dfd9d9; // Convert 10px to vw
 
         @include mobile {
-          padding: 0.625vw; // Convert 10px to vw
-          width: 37.5vw; // Convert 15em to vw
+          padding: 10px; // Convert 10px to vw
+          width: 15em; // Convert 15em to vw
         }
       }
 
@@ -106,7 +107,7 @@ $baseFontSize: 16px; // Define your base font size
         font-weight: 500;
 
         @include mobile {
-          padding: 0.625vw; // Convert 10px to vw
+          padding: 10px; // Convert 10px to vw
         }
       }
     }
