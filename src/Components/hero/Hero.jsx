@@ -55,7 +55,7 @@ const Hero = () => {
             <TypewriterEffect />
           </motion.h1>
           <motion.div variants={textVariants} className="buttons">
-            <motion.button variants={textVariants} whileHover={{ scale: 1.1 }} onClick={() => window.location.href = '#Portfolio'}>
+            <motion.button variants={textVariants} whileHover={{ scale: 1.1 }} onClick={() => window.location.href = '#Projects'}>
               See the Latest Works
             </motion.button>
             <motion.button variants={textVariants} whileHover={{ scale: 1.1 } } onClick={() => window.location.href = '#Contact'}>
