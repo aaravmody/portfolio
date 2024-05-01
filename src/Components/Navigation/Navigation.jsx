@@ -1,10 +1,6 @@
 import React from 'react'
-import './navbar.scss'
-import { motion } from 'framer-motion'
-import Sidebar from '../sidebar/Sidebar'
 
-
-const navbar = () => {
+const Navigation = () => {
   return (
     <div className='navbar'>
     <Sidebar />
@@ -19,4 +15,4 @@ const navbar = () => {
   )
 }
 
-export default navbar
+export default Navigation
