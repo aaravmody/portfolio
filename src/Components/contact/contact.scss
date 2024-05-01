@@ -1,16 +1,18 @@
 @import "../../app.scss";
 
+$baseFontSize: 16px; // Define your base font size
+
 .contact {
   height: 100%;
-  max-width: 1366px;
+  max-width: 85.0625vw; // Convert 1366px to vw
   margin: auto;
   display: flex;
   align-items: center;
-  gap: 50px;
+  gap: 3.125vw; // Convert 50px to vw
 
   @include mobile {
     width: 100%;
-    padding: 10px;
+    padding: 1.5625vw; // Convert 25px to vw
     flex-direction: column;
   }
 
@@ -18,26 +20,23 @@
     flex: 1;
     display: flex;
     flex-direction: column;
-    gap: 40px;
+    gap: 2.5vw; // Convert 40px to vw
+    text-align: center;
+    align-items: center;
+    margin-top: 4.375vh; // Convert 70px to vh
 
-      text-align: center;
-      align-items: center;
-      margin-top: 70px;
-    
-      @include mobile {
-        gap: 20px;
-        text-align: center;
-        align-items: center;
-        margin-top: 70px;
-      }
+    @include mobile {
+      gap: 1.25vw; // Convert 20px to vw
+      margin-top: 4.375vh; // Convert 70px to vh
+    }
 
     h1 {
-      font-size: 100px;
-      line-height: 88px;
+      font-size: 5.859375vw; // Convert 100px to vw
+      line-height: 5.125vw; // Convert 88px to vw
 
-      
       @include mobile {
-        font-size: 36px;
+        font-size: 2.25vw; // Convert 36px to vw
+        line-height: 2.25vw; // Convert 36px to vw
       }
     }
 
@@ -49,17 +48,15 @@
   .formContainer {
     flex: 1;
     position: relative;
-    
-      padding: 50px;
-      width: 100%;
-    
-      @include mobile {
-        padding: 50px;
-        width: 100%;
-        justify-content: center;
-        align-items: center;
-      }
+    padding: 3.125vw; // Convert 50px to vw
+    width: 100%;
 
+    @include mobile {
+      padding: 3.125vw; // Convert 50px to vw
+      width: 100%;
+      justify-content: center;
+      align-items: center;
+    }
 
     .phoneSvg {
       stroke: orange;
@@ -71,37 +68,37 @@
     form {
       display: flex;
       flex-direction: column;
-      gap: 20px;
+      gap: 1.25vw; // Convert 20px to vw
 
-      @include mobile{
+      @include mobile {
         justify-content: center;
         align-items: center;
       }
 
-      input,textarea,button {
+      input,
+      textarea,
+      button {
         background-color: #eee;
         border: none;
         padding: 1rem;
         font-size: 1rem;
-        width: 40em;
+        width: 55vw; // Convert 40em to vw
         border-radius: 1rem;
         color: lightcoral;
-        box-shadow: 0 0.4rem #dfd9d9;
+        box-shadow: 0 0.625vw #dfd9d9; // Convert 10px to vw
 
         @include mobile {
-            padding: 10px;
-            width: 15em;
-          }
+          padding: 0.625vw; // Convert 10px to vw
+          width: 37.5vw; // Convert 15em to vw
+        }
       }
-      
+
       input:focus {
         outline-color: lightcoral;
       }
 
-
-
       button {
-        padding: 20px;
+        padding: 1.25vw; // Convert 20px to vw
         border: none;
         color: black;
         background-color: orange;
@@ -109,8 +106,8 @@
         font-weight: 500;
 
         @include mobile {
-            padding: 10px;
-          }
+          padding: 0.625vw; // Convert 10px to vw
+        }
       }
     }
   }

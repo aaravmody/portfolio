@@ -1,5 +1,7 @@
 @import "../../app.scss";
 
+$baseFontSize: 16px; // Define your base font size
+
 .portfolio {
   position: relative;
 
@@ -9,19 +11,19 @@
     left: 0;
     text-align: center;
     color: orange;
-    font-size: 36px;
+    font-size: 2.25vw; // Convert 36px to vw
     padding-bottom: 0;
-    padding-top: 10px;
-    height: 30px;
+    padding-top: 0.625vw; // Convert 10px to vw
+    height: 2.5vh; // Convert 30px to vh
 
     @include mobile {
-      padding-top: calc(100vh - 100px);
-      font-size: 24px;
+      padding-top: calc(100vh - 6.25vw); // Subtract 100px from 100vh converted to vw
+      font-size: 1.5vw; // Convert 24px to vw
       position: relative;
     }
 
     .progressBar {
-      height: 10px;
+      height: 0.625vw; // Convert 10px to vw
       background-color: white;
     }
   }
@@ -35,16 +37,17 @@
     overflow: hidden;
 
     .wrapper {
-      max-width: 1366px;
+      max-width: 85.0625vw; // Convert 1366px to vw
       height: 100%;
       margin: auto;
       display: flex;
       align-items: center;
       justify-content: center;
-      gap: 50px;
+      gap: 3.125vw; // Convert 50px to vw
 
       @include mobile {
         flex-direction: column;
+        gap: 1.5625vw; // Convert 25px to vw
       }
 
       .imageContainer {
@@ -53,16 +56,18 @@
 
         @include mobile {
           width: 100%;
-          max-height: 300px;
+          max-height: 18.75vh; // Convert 300px to vh
         }
 
         img {
           width: 100%;
           height: 100%;
+          border-radius: 1.5625vw; // Convert 25px to vw
           object-fit: cover;
 
           @include mobile {
             object-fit: contain;
+            border-radius: 0;
           }
         }
       }
@@ -71,40 +76,41 @@
         flex: 1;
         display: flex;
         flex-direction: column;
-        gap: 30px;
+        gap: 1.875vw; // Convert 30px to vw
         text-align: center;
         align-items: center;
 
         @include mobile {
           transform: none !important;
-          padding: 10px;
+          padding: 0.625vw; // Convert 10px to vw
           align-items: center;
           text-align: center;
+          gap: 1.25vw; // Convert 20px to vw
         }
 
         h2 {
-          font-size: 72px;
+          font-size: 4.5vw; // Convert 72px to vw
 
           @include mobile {
-            font-size: 36px;
+            font-size: 2.25vw; // Convert 36px to vw
           }
         }
 
         p {
           color: gray;
-          font-size: 20px;
+          font-size: 1.25vw; // Convert 20px to vw
 
           @include mobile {
-            font-size: 16px;
+            font-size: 1vw; // Convert 16px to vw
           }
         }
 
         button {
           background-color: orange;
           border: none;
-          border-radius: 10px;
-          padding: 10px;
-          width: 200px;
+          border-radius: 1.5625vw; // Convert 25px to vw
+          padding: 0.625vw 1.25vw; // Convert 10px and 20px to vw
+          width: 12.5vw; // Convert 200px to vw
           cursor: pointer;
         }
       }
