@@ -14,17 +14,18 @@
   
   .card {
     display: flex;
-    width: 600px; /* Adjust width to make it landscape */
+    width: 1200px; /* Adjust width to make it landscape */
     height: 500px;
-    background-image: linear-gradient(163deg, #00ff75 0%, #3700ff 100%);
+    background-image: linear-gradient(163deg, #00c95e 0%, #3700ff 100%);
     border-radius: 20px;
     transition: all .3s;
     justify-content: center;
     align-items: center;
+    line-height: 5vh;
   }
 
   h1 {
-    text-align: center; /* Center the text horizontally */
+    text-align: left; /* Center the text horizontally */
     padding: 40px;
     margin: 0; /* Remove default margin to ensure accurate centering */
     display: flex;

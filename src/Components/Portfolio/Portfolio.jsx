@@ -18,14 +18,14 @@ const items = [
     title: "ChatWell",
     img: "/chatwell.png",
     desc: "• Developed a chat website based on a server which allows users to join different rooms and chat with people sharing similar interests. • Utilized express.js to establish the server and implemented socket.io for efficient message transfer. Used Bootstrap to enhance the visual appeal and user-friendliness of the website. • Hosted the website on render which allows Chatwell to be accessed from anywhere in the world ensuring seamless chat experience",
-    lin: "https://passkaguard.netlify.app/"
+    lin: "https://chat-site-7pl2.onrender.com/"
   },
   {
     id: 3,
-    title: "Project 3",
-    img: "https://images.pexels.com/photos/6894528/pexels-photo-6894528.jpeg?auto=compress&cs=tinysrgb&w=1600&lazy=load",
-    desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores ab id ad nesciunt quo aut corporis modi? Voluptate, quos sunt dolorum facilis, id eum sequi placeat accusantium saepe eos laborum.",
-    lin: "https://passkaguard.netlify.app/"
+    title: "ClipCraze",
+    img: "/clipcraze.png",
+    desc: "Crafted an immersive Video playing website using technologies like ReactJS, JavaScript, HTML, and CSS to deliver a seamless user experience. Integrated API to fetch and display video content, ensuring dynamic and up-to-date media offerings for user",
+    lin: "https://github.com/aaravmody/ClipCraze"
   },
   {
     id: 4,
