@@ -2,7 +2,7 @@ import React from "react";
 import { Card, CardContent } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import IconCloudDemo from "@/components/globe";
-import { Code2, Paintbrush, Database, Layout, Cpu, Cloud } from "lucide-react";
+import { Code2, Database, Layout, Cpu, Cloud } from "lucide-react";
 import {
   FaReact,
   FaNodeJs,
@@ -19,9 +19,6 @@ import {
   SiTailwindcss,
   SiPostgresql,
   SiMongodb,
-  SiGraphql,
-  SiJest,
-  SiWebpack,
   SiRedux,
   SiFirebase,
   SiVercel,
@@ -119,10 +116,6 @@ const SkillsSection = () => {
           name: "REST APIs",
           icon: <BsGrid1X2 className="w-4 h-4 text-[#FF6C37]" />,
         },
-        {
-          name: "GraphQL",
-          icon: <SiGraphql className="w-4 h-4 text-[#E10098]" />,
-        },
       ],
     },
     {
@@ -156,10 +149,6 @@ const SkillsSection = () => {
           icon: <FaDocker className="w-4 h-4 text-[#2496ED]" />,
         },
         { name: "CI/CD", icon: <FcWorkflow className="w-4 h-4" /> },
-        {
-          name: "Kubernetes",
-          icon: <BsGrid1X2 className="w-4 h-4 text-[#326CE5]" />,
-        },
         { name: "Git", icon: <FaGitAlt className="w-4 h-4 text-[#F05032]" /> },
         { name: "Linux", icon: <FaLinux className="w-4 h-4 text-[#FCC624]" /> },
       ],
@@ -173,11 +162,6 @@ const SkillsSection = () => {
           name: "VS Code",
           icon: <TbBrandVscode className="w-4 h-4 text-[#007ACC]" />,
         },
-        { name: "Jest", icon: <SiJest className="w-4 h-4 text-[#C21325]" /> },
-        {
-          name: "Webpack",
-          icon: <SiWebpack className="w-4 h-4 text-[#8DD6F9]" />,
-        },
         { name: "Redux", icon: <SiRedux className="w-4 h-4 text-[#764ABC]" /> },
         {
           name: "Firebase",
@@ -187,29 +171,7 @@ const SkillsSection = () => {
         { name: "Vite", icon: <SiVite className="w-4 h-4 text-[#646CFF]" /> },
       ],
     },
-    {
-      icon: Paintbrush,
-      title: "Creative Skills",
-      color: "text-yellow-400",
-      skills: [
-        {
-          name: "UI Animation",
-          icon: <MdAnimation className="w-4 h-4 text-[#FF4081]" />,
-        },
-        {
-          name: "SVG Animation",
-          icon: <MdAnimation className="w-4 h-4 text-[#00C853]" />,
-        },
-        {
-          name: "3D Modeling",
-          icon: <Cpu className="w-4 h-4 text-[#7C4DFF]" />,
-        },
-        {
-          name: "Motion Graphics",
-          icon: <MdAnimation className="w-4 h-4 text-[#FF6D00]" />,
-        },
-      ],
-    },
+
   ];
 
   return (
